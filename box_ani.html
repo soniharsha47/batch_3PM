@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            .ani{
+                height: 400px;
+                width: 400px;
+                border: 2px solid blue;
+            }
+            .box{
+                height: 100px;
+                width: 100px;
+                background-color: rgb(66, 220, 66);
+                animation-name: grras;
+                animation-duration: 15s;
+                animation-iteration-count: 5;
+            }
+            @keyframes grras {
+                0%{
+                    margin-top: 0;
+                    margin-left: 0;
+                }
+                25%{
+                    margin-top: 300px;
+                    margin-left: 0;
+                    border-radius: 100%;
+                }
+                50%{
+                    margin-top: 300px;
+                    margin-left: 300px;
+                    border-radius: 100%;
+                }
+                75%{
+                    margin-top: 0;
+                    margin-left: 300px;
+                    border-radius: 0;
+                }
+                100%{
+                    margin-top: 0;
+                    margin-left: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ani">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>

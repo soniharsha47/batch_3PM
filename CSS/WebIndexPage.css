@@ -1,0 +1,129 @@
+*{
+    background-color: #D5CEA3;
+}
+body{
+    margin: 0;
+}
+.header{
+    /* text-align: center; */
+    background-color: #1A120B;
+    color: #E5E5CB;
+    font-size: 50px;
+    position: relative;
+    padding: 1%;
+    height: 10%;
+    background-image: url(../media/glogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 10px;
+}
+.nav{
+    margin-top: 0.1rem;
+    display: flex;
+    background-color: #3C2A21;
+    position: relative;
+}
+.ul{
+    display: flex;
+    width: 100%;
+    background-color: #3C2A21;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #E5E5CB;
+    background-color: #3C2A21;
+}
+.navli{
+    padding: 0.5%;
+    background-color: #3C2A21;
+
+}
+input[type=search]{
+    background-color: #886b5192;
+    padding: 0.5%;
+    width: 20%;
+    border: 2px solid #E5E5CB;
+    background-image: url(https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    border-radius: 10px;
+}
+input[type=submit]{
+    background-color: #886b5192;
+    padding: 0.5%;
+    width: 5%;
+    color: #E5E5CB;
+    border: 2px solid #E5E5CB;
+    position: absolute;
+    right: 4%;
+    top: 20%;
+    border-radius: 10px;
+}
+/* Offer  */
+marquee{
+    font-size: 20px;
+    padding: 1rem;
+    /* background-color: #1A120B; */
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #1A120B;
+}
+/* Middle Container */
+.container{
+    display: flex;
+}
+/* News Blog */
+.news{
+    width: 20%;
+}
+.newsul{
+    /* width: 50%; */
+    height: 800px;
+    border-right: 2px solid #1A120B;
+    border-bottom: 2px solid #1A120B;
+    overflow: auto;
+    /* background-color: gray; */
+}
+
+/* Middles */
+
+.middle{
+    width: 80%;
+    margin-bottom: 0;
+}
+.para{
+    text-align: justify;
+    text-align-last: center;
+    font-size: 20px;
+    padding: 4%;
+    line-height: 2.5;
+    letter-spacing: 2;
+    color: #1A120B;
+    font-weight: 700;
+}
+.review{
+    display: flex;
+    height: 30%;
+    margin-bottom: 0;
+}
+.re1{
+    border: 2px solid #1A120B;
+    height: 100%;
+    width: 30%;
+    margin: 5%;
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+.re{
+    line-height: 2;
+    font-size: 16px;
+}
+/* Footer */
+.footer{
+    background-color: #1A120B;
+    color: #E5E5CB;
+}

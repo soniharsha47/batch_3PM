@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="" /> -->
+    <title>Document</title>
+    <style>
+      .box {
+        width: 80vw;
+        height: 10vh;
+        background-color: green;
+        font-size: 3rem;
+        color: white;
+      }
+      p {
+        text-align: center;
+      }
+      .main{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .sub{
+        height: 20vh;
+        width: 20vw;
+        background-color: greenyellow;
+        margin: 1rem;
+      }
+      /* Tablet */
+      @media (max-width: 1300px) {
+        .box {
+          background-color: brown;
+        }
+        p {
+          text-align: left;
+        }
+      }
+
+      /* Mobile */
+      @media (max-width: 400px) {
+        .box {
+          background-color: bisque;
+        }
+        p {
+          text-align: justify;
+        }
+        .main{
+            /* display: block; */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Hello <img src="https://static.vecteezy.com/system/resources/previews/018/930/413/original/instagram-logo-instagram-icon-transparent-free-png.png" width="5%" alt="">  </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error blanditiis
+      odit fugit, ex incidunt nulla velit, odio animi molestias nisi non quis
+      obcaecati quos soluta quia necessitatibus voluptates ipsa dolor sed!
+      Rerum, qui mollitia! Incidunt consectetur mollitia cupiditate pariatur
+      nemo. Quo facilis pariatur veniam nemo temporibus mollitia fugit
+      necessitatibus vel nesciunt blanditiis distinctio obcaecati, dolor, minus
+      voluptatibus impedit similique aut? Magni ex delectus culpa natus id sed
+      a, ullam, qui vel est provident eos unde, velit quia. Reprehenderit porro
+      amet hic eum consequuntur ipsa quia itaque sequi veritatis iste beatae
+      maiores iusto est illum ratione, possimus cum quis tempore corrupti?
+    </p>
+    <div class="main">
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+        <div class="sub"></div>
+    </div>
+  </body>
+</html>
